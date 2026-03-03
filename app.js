@@ -23,9 +23,11 @@
 // loadMathModule();
 
 // default + named exports
-import Person, {greet1, node} from './person.js';
+// import Person, {greet1, node} from './person.js';
 
-const user = new Person('Sunil')
-console.log(user.sayhello());
-console.log(greet1('Lucas'))
-console.log(node(945))
+// const user = new Person('Sunil')
+// console.log(user.sayhello());
+// console.log(greet1('Lucas'))
+// console.log(node(945))
+
+mongoose.connect("mongodb://localhost:27017/test")
